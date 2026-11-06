@@ -1,0 +1,100 @@
+
+# ==========================================
+# JAVA / SPRING BOOT BACKEND
+# ==========================================
+
+HELP.md
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Spring Boot configuration and secrets
+**/application.properties
+**/application-local.properties
+**/application-prod.properties
+**/serviceAccountKey.json
+
+# Generated uploads
+**/static/uploads/
+**/static.uploads/
+
+**/uploads/
+
+# Environment variables
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# ==========================================
+# REACT / NODE FRONTEND
+# ==========================================
+
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Firebase configuration
+BidsphereFrontend/src/firebase.js
+
+# ==========================================
+# ENVIRONMENT VARIABLES
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# IDE FILES
+# ==========================================
+
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+*.iws
+*.iml
+*.ipr
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# STS / Eclipse
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+**/.nb-gradle/
+
+# Build directories
+**/build/
+
+# ==========================================
+# LOGS AND OS
+# ==========================================
+
+logs/
+*.log
+.DS_Store
+Thumbs.db
